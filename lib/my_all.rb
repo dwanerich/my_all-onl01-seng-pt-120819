@@ -2,8 +2,8 @@ require 'pry'
 
 def my_all?(collection)
 
-[1,2,3,4,5].all? |element|
-
+[1,2,3,4,5].all? do |element|
+  
 end
 
 end
